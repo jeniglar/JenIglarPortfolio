@@ -15,26 +15,30 @@
         .content {
             min-height: calc(100vh - 70px);
         }
-        
+
         footer {
             height: 50px;
             border-top: 10px #78C2AD solid;
+        }
+
+        .push,
+        .footer {
+            height: 70px;
         }
     </style>
     <link rel="stylesheet" href="./Assets/bootstrap.css">
 </head>
 
 <body>
-    
     <div class="content">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
+            <section class="container">
                 <a class="navbar-brand">Jen Iglar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <section class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.html">Contact</a>
@@ -46,32 +50,38 @@
                             <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
-                </div>
-            </div>
+                </section>
+            </section>
         </nav>
 
         <main class="container mt-5">
-            <div class="row">
-                <div class=col-md-1></div>
-                <div class="col-md-8">
-                    <div class="card mb-3 px-3" style="max-width: 540px;">
+            <section class="row">
+                <aside class=col-md-1></aside>
+                <section class="col-md-8">
+                    <section class="card mb-3 px-3" style="max-width: 540px;">
                         <h1 class="text-primary">About Me</h1>
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
+                        <section class="row no-gutters">
+                            <section class="col-md-4">
                                 <img src="./Assets/jen.jpg" class="card-img" alt="Woman in a pink sweater">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <p class="card-text">Welcome to my portfolio website! I'm originally from Long Valley, NJ and currently live in Philadelphia with my chocolate lab rescue, Daisy. I have a Bachelor's degree in Marketing and over ten years of Retail Management experience.
+                            </section>
+                            <section class="col-md-8">
+                                <section class="card-body">
+                                    <p class="card-text">Welcome to my portfolio website! I'm originally from Long
+                                        Valley, NJ and currently live in Philadelphia with my chocolate lab rescue,
+                                        Daisy. I have a Bachelor's degree in Marketing and over ten years of Retail
+                                        Management experience.
                                     </p>
-                                </div>
-                            </div>
-                        </div>
-                        <p>I'm new to coding and web development, and look forward to the challenges ahead! I'm eager to learn and refine my skills in order to build an impactful portfolio. Stay tuned for more to come!</p>
-                    </div>
-                </div>
-            </div>
-            <div class=col-md-3></div>
+                                </section>
+                            </section>
+                        </section>
+                        <p>I'm new to coding and web development, and look forward to the challenges ahead! I'm eager to
+                            learn and refine my skills in order to build an impactful portfolio. Stay tuned for more to
+                            come!</p>
+                    </section>
+                </section>
+            </section>
+            <aside class=col-md-3></aside>
+            <section class="push"></section>
         </main>
     </div>
     <footer class="footer bg-dark">
